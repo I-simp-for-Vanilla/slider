@@ -1,0 +1,62 @@
+body {
+    background-color: rgb(21, 21, 21);
+}
+
+header {
+    background-color: rgb(21, 21, 21);
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+h1 {
+    color: red;
+}
+
+main {
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img {
+    height: 300px; width: 210px;
+}
+
+#wrap {
+    display: flex;
+    flex-direction: row;
+    transition: transform 1s;
+    z-index: 1;
+    width: 1250px;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+    height: 100%;
+    font-size: 40px;
+    background-color: transparent;
+    border: none;
+    z-index: 2;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: block;
+}
+
+#right {
+    right: 0;
+}
+
+#conteneur {
+    position: relative;
+    overflow: hidden;
+    width: 1260px;
+}
